@@ -12,7 +12,7 @@ humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2019-04-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-04-20        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Andrew Yip"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@andrewyip.me"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -34,14 +34,14 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 For a workshop please delete the following block
 {% endcomment %}
-<div class="alert alert-danger">
+<!-- <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to customize your
 own website. If you are running a self-organized workshop or have not put in a
 workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
 about your workshop and our administrator may contact you if we need any extra
 information.
-</div>
+</div> -->
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
